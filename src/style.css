@@ -1,11 +1,22 @@
+
 *{
     font-family: Helvetica;
     font-weight: 400;
 }
 
+body{
+    background-image: url("img/papeldeparede.png");
+    }
+
+img {
+    opacity: 0.5;
+}
+
 #titulo {
-    color: #2d3436;
+    font-family: 'Press Start 2P', cursive;  
+    color: white;
     text-align: center;
+    font-size: 50px;
 }
 
 #placar {
@@ -33,11 +44,14 @@
 
 #versus{
     width: 70px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    font-family: 'Press Start 2P', cursive;  
 }
 
 #jogador-nome, #computador-nome {
+    font-family: 'Press Start 2P', cursive;  
+    font-size: 30px;
     margin: 0;
     padding: 0;
 
@@ -50,6 +64,7 @@
 }
 
 #jogador-pontos, #computador-pontos{
+    font-family: 'Press Start 2P', cursive; 
     top: 8px;
     font-size: 32px;
     position: absolute;
@@ -89,5 +104,6 @@ ul#jogador-escolha li a img, ul#computador-escolha li a img{
     padding: 40px 0;
     margin: 20px;
     text-align: center;
+    font-family: 'Press Start 2P', cursive;  
 }
 
